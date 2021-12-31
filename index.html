@@ -12,16 +12,27 @@
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://metatags.io/">
+	<meta property="og:url" content="https://anvarmirzo.github.io/qrcode/">
 	<meta property="og:title" content="QR-Code Generator">
 	<meta property="og:description" content="Get QR-Code for your page">
 	<meta property="og:image" content="./favicon.png">
+
+	<link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-	<input type="text" name="" id="">
-	<img id="qrcode" src="" alt="">
-	<script src="./index.js"></script>
+	<main class="main">
+		<h1 class="title">Enter the link to your site and get a QR-Code</h1>
+		<form class="link-form" id="form">
+			<input class="input" type="text" name="">
+		</form>
+		<div class="result">
+			<a class="download-link" id="download-link" href="#" download="qrcode">
+				<img class="img" id="qrcode" src="" alt="">
+			</a>
+		</div>
+		<script src="./index.js"></script>
+	</main>
 </body>
 
 </html>
